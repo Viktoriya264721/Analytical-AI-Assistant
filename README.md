@@ -118,7 +118,7 @@ Ten tables:
 ### 1. Clone and install dependencies
 
 ```bash
-git clone 
+git clone https://github.com/Viktoriya264721/Analytical-AI-Assistant.git
 cd Analytical-AI-Assistant
 pip install -r requirements.txt
 ```
