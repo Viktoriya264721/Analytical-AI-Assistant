@@ -30,7 +30,11 @@ report via Claude Sonnet. The report covers P&L, cash flow, staff efficiency,
 service distribution, and expense structure. Exportable as HTML. Average generation 
 time ~40 seconds, average cost ~$0.046 per report.
 
-**AI assistant* - 
+**AI assistant (chat)** — a ReAct agent built with LangGraph, backed by Claude 
+Sonnet 4.6, that answers financial and operational questions in natural language. 
+The agent has access to 18 specialized tools covering P&L, cash flow, staff metrics, 
+trend analysis, anomaly detection, two-month comparisons, and more. Read-only by 
+design — the agent never modifies data. Average cost per interaction cycle ~$0.12.
 ---
 
 ## Evaluation summary
