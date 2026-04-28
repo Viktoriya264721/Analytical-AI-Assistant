@@ -34,7 +34,7 @@ AI assistant (chat) - a ReAct agent built with LangGraph, backed by Claude
 Sonnet 4.6, that answers financial and operational questions in natural language. 
 The agent has access to 18 specialized tools covering P&L, cash flow, staff metrics, 
 trend analysis, anomaly detection, two-month comparisons, and more. Read-only by 
-design — the agent never modifies data. Average cost per interaction cycle ~$0.12.
+design - the agent never modifies data. Average cost per interaction cycle ~$0.12.
 ---
 
 ## Evaluation summary
@@ -42,7 +42,7 @@ design — the agent never modifies data. Average cost per interaction cycle ~$0
 The system was evaluated across all three modules:
 
 - **Data pipeline** - 7/7 validation checks passed (100% accuracy)
-- **Report generation** - tested on 7 months, 100% template compliance, average LLM-as-a-judge score 4.14/5
+- **Report generation** - tested on 7 months, 100% template compliance, average LLM-as-a-judge score 4/5
 - **AI assistant** - 56 test cases across 7 categories and 3 difficulty levels,
   overall correctness 0.879, faithfulness 0.94, tool success rate 1.0
 
@@ -53,7 +53,7 @@ The system was evaluated across all three modules:
 | Layer | What's used |
 |---|---|
 | Frontend | Streamlit, Plotly |
-| Backend | Python 3.11+, pandas, numpy |
+| Backend | Python, pandas, numpy |
 | Database | PostgreSQL via Supabase |
 | AI / Agent | Claude (Anthropic API) or Ollama · LangChain · LangGraph |
 | Data ingestion | Google Sheets API via gspread |
